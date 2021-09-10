@@ -14,9 +14,6 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 #
-
-- hosts: win
-  tasks:
     - name: 1.1.1 (L1) Ensure 'Enforce password history' is set to '24 or more password(s)'
       win_security_policy:
         section: System Access
