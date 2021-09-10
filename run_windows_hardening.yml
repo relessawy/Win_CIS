@@ -16,7 +16,6 @@
 #
 
 - hosts: all
-  accelerate: true
-  user: root
+  name: Windows hardening role
   roles:
     - WIN_CIS 
